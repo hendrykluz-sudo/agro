@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho - Agro Forte e Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agrinho</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#producao">Produção</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre o Agrinho</h2>
+        <p>O Agrinho é um movimento que promove a agricultura forte e responsável, garantindo equilíbrio entre produção agrícola e preservação do meio ambiente.</p>
+    </section>
+
+    <section id="producao">
+        <h2>Produção Eficiente</h2>
+        <p>Focamos em técnicas modernas de cultivo para aumentar a produtividade sem comprometer os recursos naturais.</p>
+        <button id="mostrarMensagem">Clique para saber mais</button>
+        <p id="mensagem" class="hidden">Usamos práticas sustentáveis, como rotação de culturas e manejo adequado do solo.</p>
+    </section>
+
+    <section id="sustentabilidade">
+        <h2>Sustentabilidade</h2>
+        <p>Nosso objetivo é um futuro onde a agricultura e o meio ambiente coexistam em equilíbrio.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="formContato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="mensagemForm">Mensagem:</label>
+            <textarea id="mensagemForm" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="respostaForm"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Agrinho - Agro Forte, Futuro Sustentável</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
